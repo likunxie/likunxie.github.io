@@ -25,6 +25,10 @@ body {
     border-radius: 4px;
     margin-top: 10px;
 }
+.guitar-link {
+    margin-top: 40px;
+    font-size: 20px;
+}
 
 /* Typography improvements */
 h1 {
