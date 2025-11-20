@@ -12,8 +12,10 @@ body {
 }
 
 .text {
-    max-width: 65%;
+    flex: 1;
+    max-width: 900px;  /* Increase width */
 }
+
 
 .photo img {
     width: 260px;
