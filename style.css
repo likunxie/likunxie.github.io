@@ -19,6 +19,10 @@ body {
     width: 260px;
     border-radius: 4px;
 }
+.guitar-link {
+    margin-top: 40px;   /* increase to 50px if you want more */
+}
+
   
 h1 {
     font-size: 40px;
