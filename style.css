@@ -1,36 +1,75 @@
+/* Overall page styling */
 body {
     font-family: "Georgia", serif;
     font-size: 18px;
     line-height: 1.6;
-    margin: 60px;
+    color: #111;
+    margin: 40px auto 60px;
+    max-width: 1200px;      /* wide text block */
+    padding: 0 40px;        /* side padding so it doesn't touch the edges */
 }
 
+/* Two-column layout: text + photo */
 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 60px;              /* space between text and photo */
 }
 
+/* Left text column: take all remaining width */
 .text {
-    flex: 1;
-    max-width: 900px;  /* Increase width */
+    flex: 1 1 auto;
 }
 
+/* Right photo column */
+.photo {
+    flex: 0 0 auto;
+}
 
 .photo img {
     width: 260px;
     border-radius: 4px;
 }
-.guitar-link {
-    margin-top: 40px;   /* increase to 50px if you want more */
-}
 
-  
+/* Typography */
 h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 h2 {
-    margin-top: 40px;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+p {
+    margin: 0 0 14px;
+}
+
+/* Extra space before the Classical Guitar link if you use:
+   <p class="guitar-link"> ... </p> */
+.guitar-link {
+    margin-top: 32px;
+}
+
+/* Mobile / narrow screens */
+@media (max-width: 800px) {
+    body {
+        margin: 20px auto 40px;
+        padding: 0 16px;
+        max-width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .photo img {
+        width: 200px;
+    }
 }
