@@ -4,11 +4,20 @@ html {
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
 }
-body{
-  margin: 40px auto 60px;
-  max-width: min(1600px, 92vw);
-  padding: 0 40px;
+body {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    color: #111;
+    margin: 0;
+    line-height: 1.55;
 }
+.page {
+    max-width: 1200px;
+    margin: 40px auto 60px;
+    padding: 0 40px;
+}
+
+
 
 /* Two-column layout: text + photo */
 .container {
