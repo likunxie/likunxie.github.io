@@ -17,7 +17,7 @@ body { font-family: "Georgia", serif;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 60px;              /* space between text and photo */
+    gap: 40px;              /* space between text and photo */
 }
 
 /* Left text column: take all remaining width */
