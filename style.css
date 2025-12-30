@@ -12,9 +12,10 @@ body {
     line-height: 1.55;
 }
 .page {
-    max-width: 1200px;
-    margin: 40px auto 60px;
-    padding: 0 40px;
+  max-width: none;          /* remove the cap */
+  width: 100%;
+  margin: 40px 0 60px;      /* no auto-centering */
+  padding: 0 40px;
 }
 
 
