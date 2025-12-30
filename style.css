@@ -30,7 +30,8 @@ body {
 
 /* Left text column: take all remaining width */
 .text {
-    flex: 1 1 auto;
+  max-width: 900px;   /* keeps lines readable */
+  flex: 1 1 auto;
 }
 
 /* Right photo column */
