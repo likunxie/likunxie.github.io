@@ -8,7 +8,7 @@ body { font-family: "Georgia", serif;
       font-size: 18px; color: #111; 
       margin: 40px auto 60px; 
       line-height: 1.55; /* slightly tighter lines if it feels too airy */ 
-      max-width: 1800px; /* wide text block */ 
+      max-width: 1600px; /* wide text block */ 
       padding: 0 40px; /* side padding so it doesn't touch the edges */ }
 
 
