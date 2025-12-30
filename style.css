@@ -22,7 +22,7 @@ body { font-family: "Georgia", serif;
 
 /* Left text column: take all remaining width */
 .text {
-  max-width: 1200px;   /* keeps lines readable */
+  max-width: 1000px;   /* keeps lines readable */
   flex: 1 1 auto;
 }
 
