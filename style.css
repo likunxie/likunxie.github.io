@@ -4,18 +4,12 @@ html {
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
 }
-body {
-    font-family: "Georgia", serif;
-    font-size: 18px;
-    color: #111;
-    margin: 0;
-    line-height: 1.55;
-}
-.page {
-  max-width: 1600px;
-  width: calc(100% - 80px); /* keep 40px padding on both sides */
-  margin: 40px auto 60px;
-}
+body { font-family: "Georgia", serif;
+      font-size: 18px; color: #111; 
+      margin: 40px auto 60px; 
+      line-height: 1.55; /* slightly tighter lines if it feels too airy */ 
+      max-width: 1200px; /* wide text block */ 
+      padding: 0 40px; /* side padding so it doesn't touch the edges */ }
 
 
 /* Two-column layout: text + photo */
