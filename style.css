@@ -8,21 +8,20 @@ body { font-family: "Georgia", serif;
       font-size: 17px; color: #111; 
       margin: 40px auto 60px; 
       line-height: 1.45; /* slightly tighter lines if it feels too airy */ 
-      max-width: 1600px; /* wide text block */ 
+      max-width: 1200px; /* wide text block */ 
       padding: 0 40px; /* side padding so it doesn't touch the edges */ }
 
 
 /* Two-column layout: text + photo */
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;              /* space between text and photo */
+    gap: 60px;
 }
 
 /* Left text column: take all remaining width */
 .text {
-  max-width: 1000px;   /* keeps lines readable */
+  max-width: 1000px;  /* keeps lines readable */
   flex: 1 1 auto;
 }
 
