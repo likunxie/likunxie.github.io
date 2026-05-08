@@ -41,16 +41,19 @@ h1 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 14px;
+    font-weight: normal;
 }
 
 h2 {
     font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 18px;
+    margin-top: 36px;       
+    margin-bottom: 12px;    
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 14px;
 }
 
 /* Extra space before the Classical Guitar link if you use:
@@ -75,6 +78,7 @@ p {
     h1 {
         font-size: 32px;
         margin-bottom: 12px;
+        font-weight: normal;
     }
 
     /* slightly smaller section titles */
