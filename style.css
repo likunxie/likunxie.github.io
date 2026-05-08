@@ -57,6 +57,11 @@ p {
     margin-bottom: 14px;
 }
 
+.paper {
+    margin: 0 0 8px 0;
+    line-height: 1.35;
+}
+
 /* Extra space before the Classical Guitar link if you use:
    <p class="guitar-link"> ... </p> */
 .guitar-link {
