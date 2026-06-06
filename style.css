@@ -109,6 +109,7 @@ p {
     .photo img {
         width: 140px;
         margin-top: 10px;
+        filter: saturate(90%) brightness(98%);
     }
 }
 
