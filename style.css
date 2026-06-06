@@ -33,7 +33,7 @@ body { font-family: "Georgia", serif;
 .photo img {
     width: 150px;
     border-radius: 4px;
-    filter: saturate(80%) brightness(98%);
+    filter: saturate(90%) brightness(98%);
 }
 /* Typography */
 h1 {
