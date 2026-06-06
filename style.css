@@ -29,9 +29,11 @@ body { font-family: "Georgia", serif;
 .photo {
     flex: 0 0 auto;
 }
+
 .photo img {
-    width: 160px;
+    width: 150px;
     border-radius: 4px;
+    filter: saturate(80%) brightness(98%);
 }
 /* Typography */
 h1 {
