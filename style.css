@@ -23,11 +23,12 @@ body { font-family: "Georgia", serif;
 }
 .footer-wave {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #444;
-    opacity: 0.5;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    color: #555;
+    opacity: 0.45;
 }
+
 .wave-icon {
     width: 42px;
     height: auto;
