@@ -29,6 +29,11 @@ body { font-family: "Georgia", serif;
     color: #444;
     opacity: 0.5;
 }
+.wave-icon {
+    width: 42px;
+    height: auto;
+    display: inline-block;
+}
 
 .text {
   max-width: 1100px;  
