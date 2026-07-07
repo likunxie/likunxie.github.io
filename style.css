@@ -30,10 +30,11 @@ body { font-family: "Georgia", serif;
     opacity: 0.55;
 }
 
-.footer-wave svg {
+.wave-icon {
     width: 28px;
     height: auto;
-} 
+    display: inline-block;
+}
 .text {
   max-width: 1100px;  
   flex: 1;
