@@ -7,7 +7,7 @@ html {
 body { font-family: "Georgia", serif;
       font-size: 17px; color: #111; 
       margin: 40px auto 60px; 
-      line-height: 1.45; /* slightly tighter lines if it feels too airy */ 
+      line-height: 1.45;  
       max-width: 1600px;
  padding: 0 60px;
      }
@@ -22,13 +22,12 @@ body { font-family: "Georgia", serif;
     gap: 40px;
 }
 
-/* Left text column: take all remaining width */
+ 
 .text {
   max-width: 1100px;  /* keeps lines readable */
   flex: 1;
 }
 
-/* Right photo column */
 .photo {
     flex: 0 0 auto;
 }
@@ -68,11 +67,7 @@ p {
     width: 100%;
 }
 
-/* Extra space before the Classical Guitar link if you use:
-   <p class="guitar-link"> ... </p> */
-.guitar-link {
-    margin-top: 32px;
-}
+ 
 
 /* Mobile / narrow screens */
 @media (max-width: 900px) {
