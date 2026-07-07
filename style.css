@@ -88,10 +88,10 @@ p {
 
     /* slightly smaller name */
     h1 {
-        font-size: 32px;
-        margin-bottom: 12px;
-        font-weight: normal;
-    }
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
 
     /* slightly smaller section titles */
     h2 {
@@ -114,8 +114,8 @@ p {
 
     /* reduce photo size */
     .photo img {
-        width: 140px;
-        margin-top: 10px;
-    }
+    width: 110px;
+    margin-top: 10px;
+}
 }
 
