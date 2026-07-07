@@ -8,19 +8,18 @@ body { font-family: "Georgia", serif;
       font-size: 17px; color: #111; 
       margin: 40px auto 60px; 
       line-height: 1.45; /* slightly tighter lines if it feels too airy */ 
-      max-width: 1400px; /* wide text block */ 
-      padding: 0 40px; /* side padding so it doesn't touch the edges */ }
+      max-width: 1600px;
+    padding: 0 30px;
 
 
 /* Two-column layout: text + photo */
 .container {
     width: 100%;
 }
-
 .top {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 /* Left text column: take all remaining width */
