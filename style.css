@@ -14,9 +14,7 @@ body { font-family: "Georgia", serif;
 
 /* Two-column layout: text + photo */
 .container {
-    display: flex;
-    align-items: flex-start;
-    gap: 60px;
+    width: 100%;
 }
 
 .top {
