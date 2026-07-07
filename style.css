@@ -8,7 +8,7 @@ body { font-family: "Georgia", serif;
       font-size: 17px; color: #111; 
       margin: 40px auto 60px; 
       line-height: 1.45; /* slightly tighter lines if it feels too airy */ 
-      max-width: 1200px; /* wide text block */ 
+      max-width: 1400px; /* wide text block */ 
       padding: 0 40px; /* side padding so it doesn't touch the edges */ }
 
 
@@ -20,7 +20,7 @@ body { font-family: "Georgia", serif;
 .top {
     display: flex;
     align-items: flex-start;
-    gap: 60px;
+    justify-content: space-between;
 }
 
 /* Left text column: take all remaining width */
