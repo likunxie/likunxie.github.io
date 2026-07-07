@@ -9,7 +9,7 @@ body { font-family: "Georgia", serif;
       margin: 40px auto 60px; 
       line-height: 1.45; /* slightly tighter lines if it feels too airy */ 
       max-width: 1600px;
- padding: 0 40px;
+ padding: 0 60px;
 
 
 /* Two-column layout: text + photo */
