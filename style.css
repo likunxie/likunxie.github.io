@@ -107,10 +107,8 @@ p {
     gap: 20px;
 }
 
-    /* reduce photo size */
-    .photo img {
-    width: 110px;
-    margin-top: 10px;
+    .photo {
+    display: none;
 }
 }
 
