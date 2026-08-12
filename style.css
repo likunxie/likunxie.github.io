@@ -65,12 +65,18 @@ p {
     margin-top: 30px;
 }
 
-.expository summary {
-    font-size: 20px;
-    font-weight: normal;
-    cursor: pointer;
-    margin-bottom: 14px;
+.expository summary::before {
+    content: ">";
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 14px;
+    transition: transform 0.15s ease;
 }
+
+.expository[open] summary::before {
+    transform: rotate(90deg);
+}
+
 .expository .paper {
     font-size: 15px;
     line-height: 1.35;
@@ -121,6 +127,11 @@ p {
         font-size: 18px;
         margin-bottom: 12px;
     }
+
+.expository summary::before {
+    font-size: 12px;
+    margin-right: 6px;
+}
     .expository .paper {
     font-size: 14px;
     line-height: 1.3;
