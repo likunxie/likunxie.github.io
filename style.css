@@ -3,6 +3,7 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    scrollbar-gutter: stable;
 }
 body { font-family: "Georgia", serif;
       font-size: 17px; color: #111; 
