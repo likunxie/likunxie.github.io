@@ -141,6 +141,9 @@ p {
  .expository {
         margin-top: 30px;
     }
+.expository + .expository {
+    margin-top: 8px;
+}
 
 .expository summary {
         font-size: 18px;
