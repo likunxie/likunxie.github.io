@@ -66,6 +66,9 @@ p {
 .expository {
     margin-top: 20px;
 }
+.expository + .expository {
+    margin-top: 8px;
+}
 
 .expository summary {
     list-style: none;
