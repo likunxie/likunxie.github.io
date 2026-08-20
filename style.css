@@ -172,6 +172,25 @@ p {
     margin: 0 0 6px 0;
     line-height: 1.3;
 }
+.perspectives {
+    margin-top: 30px;
+}
+
+.perspectives summary {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.perspectives summary::before {
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.perspectives .paper {
+    font-size: 15px;
+    line-height: 1.3;
+}
+    
  .expository {
         margin-top: 30px;
     }
