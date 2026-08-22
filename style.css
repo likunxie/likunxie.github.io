@@ -57,11 +57,7 @@ p {
     margin-bottom: 14px;
 }
 
-.paper {
-    margin: 0 0 8px 0;
-    line-height: 1.35;
-}
-
+.paper,
 .paper-row {
     margin: 0 0 8px 0;
     line-height: 1.35;
@@ -75,7 +71,6 @@ p {
 .paper-note-inline summary {
     display: inline;
     list-style: none;
-    font-size: 13px;
     font-style: italic;
     cursor: pointer;
 }
@@ -136,9 +131,28 @@ p {
         margin-bottom: 16px;
         font-weight: normal;
     }
-    .paper {
+
+    .paper,
+.paper-row {
     margin: 0 0 6px 0;
     line-height: 1.3;
+}
+
+.paper-note-inline {
+    margin-left: 5px;
+}
+
+.paper-note-inline summary {
+    font-size: inherit;
+}
+
+.paper-note-inline summary::before {
+    font-size: 9px;
+}
+
+.paper-note-content {
+    font-size: inherit;
+    margin: 4px 0 3px 14px;
 }
 
     /* stack the layout vertically */
