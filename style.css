@@ -102,6 +102,41 @@ p {
     max-width: 1100px;
 }
 
+/* Other Writings */
+
+.expository {
+    margin-top: 26px;
+}
+
+.expository > summary {
+    font-size: 24px;
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+}
+
+.expository > summary::-webkit-details-marker {
+    display: none;
+}
+
+.expository > summary::before {
+    content: ">";
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.15s ease;
+}
+
+.expository[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.expository[open] > summary {
+    margin-bottom: 14px;
+}
+
+.expository > .paper {
+    margin-bottom: 8px;
+}
 
  
 
@@ -168,6 +203,18 @@ p {
 
 .photo img {
     width: 80px;
+}
+    
+.expository {
+    margin-top: 36px;
+}
+
+.expository > summary {
+    font-size: 22px;
+}
+
+.expository[open] > summary {
+    margin-bottom: 16px;
 }
 }
 
