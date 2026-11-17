@@ -175,6 +175,15 @@ p {
 }
 .reflection a {
     font-size: 0.9em;
+    color: #777;
+    text-decoration: underline;
+    text-decoration-color: #aaa;
+    text-underline-offset: 2px;
+}
+
+.reflection a:hover {
+    color: #333;
+    text-decoration-color: #333;
 }
 
  
