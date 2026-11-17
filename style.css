@@ -138,6 +138,41 @@ p {
     margin-bottom: 8px;
 }
 
+.reflection {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.reflection summary {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+
+.reflection summary::-webkit-details-marker {
+    display: none;
+}
+
+.reflection summary::marker {
+    content: "";
+}
+
+.reflection summary:hover {
+    color: #333;
+}
+
+.reflection p {
+    margin-top: 15px;
+    max-width: 750px;
+    font-size: 0.95em;
+    font-style: italic;
+    color: #555;
+    line-height: 1.7;
+}
+
  
 
 /* Mobile / narrow screens */
