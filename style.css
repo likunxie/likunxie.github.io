@@ -62,6 +62,21 @@ p {
     margin: 0 0 8px 0;
     line-height: 1.35;
 }
+.papers > .paper,
+.papers > .paper-row {
+    position: relative;
+    padding-left: 18px;
+}
+
+.papers > .paper::before,
+.papers > .paper-row::before {
+    content: "◆";
+    position: absolute;
+    left: 0;
+    top: 0.4em;
+    font-size: 0.6em;
+    color: #777;
+}
 
 .paper-note-inline {
     display: inline;
